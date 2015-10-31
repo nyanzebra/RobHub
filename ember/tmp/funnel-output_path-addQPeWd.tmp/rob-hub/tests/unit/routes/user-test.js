@@ -1,0 +1,1 @@
+/home/robert/Documents/Rails+Ember/RobHub/ember/tmp/babel-cache_path-aUfXDNm4.tmp/rob-hub/tests/unit/routes/user-test.js

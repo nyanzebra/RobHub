@@ -1,0 +1,23 @@
+<div>
+	{{#if is_expanded}}
+	<div class="container">
+		<button class="btn btn-primary" {{action 'new'}}>Create New Article</button>
+	</div>
+	{{#each articles as |article|}}
+	{{partial 'modal' article}}
+	<div class="panel panel-default">
+		<div class="panel-heading" style="cursor: pointer" {{action 'summon' article.id}}>
+			<h3 class="panel-title">{{article.title}}</h3>
+			<h4>{{article.author}}</h4>
+		</div>
+		<div class="panel-body">
+			<p>
+				{{article.contents}}
+			</p>
+		</div>
+	</div>
+	{{/each}}
+	{{else}}
+	{{outlet}}
+	{{/if}}
+</div>

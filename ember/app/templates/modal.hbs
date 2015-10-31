@@ -1,0 +1,40 @@
+
+<div class="modal fade" id="modal-article-{{article.id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal-dialog" role="document">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>			
+			<h4 class="modal-title" id="myModalLabel">{{article.title}}</h4>
+			<h4 class="modal-title" id="myModalLabel">{{article.author}}</h4>
+		</div>
+		<div class="modal-body">
+			{{article.contents}}
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>	
+			<button type="button" class="btn btn-warning" {{action 'edit' article.id}}>Edit</button>
+			<button type="button" class="btn btn-info" {{action 'show' article.id}}>Read</button>
+			<button type="button" class="btn btn-danger" {{action 'should_destroy' article.id}}>Delete?</button>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-article-delete-{{article.id}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal-dialog" role="document">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>			
+			<h4 class="modal-title" id="myModalLabel">{{article.title}}</h4>
+			<h4 class="modal-title" id="myModalLabel">{{article.author}}</h4>
+		</div>
+		<div class="modal-body">
+			{{article.contents}}
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>	
+			<button type="button" class="btn btn-danger" {{action 'destroy' article.id}}>Delete</button>
+		</div>
+	</div>
+</div>
+</div>

@@ -1,0 +1,1 @@
+/home/robert/Documents/Rails+Ember/RobHub/ember/tmp/funnel-input_base_path-rChy62Es.tmp/0/vendor-suffix.js

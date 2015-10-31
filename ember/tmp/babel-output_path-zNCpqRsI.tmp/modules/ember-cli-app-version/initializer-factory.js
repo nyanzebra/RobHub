@@ -1,0 +1,1 @@
+/home/robert/Documents/Rails+Ember/RobHub/ember/tmp/babel-cache_path-22yP3eZh.tmp/modules/ember-cli-app-version/initializer-factory.js

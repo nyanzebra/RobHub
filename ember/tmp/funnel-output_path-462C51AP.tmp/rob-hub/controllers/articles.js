@@ -1,0 +1,1 @@
+/home/robert/Documents/Rails+Ember/RobHub/ember/tmp/funnel-input_base_path-W9mpfHYd.tmp/0/rob-hub/controllers/articles.js

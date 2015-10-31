@@ -1,0 +1,1 @@
+/home/robert/Documents/Rails+Ember/RobHub/ember/tmp/template_compiler-tmp_cache_dir-myZsV9Wh.tmp/0

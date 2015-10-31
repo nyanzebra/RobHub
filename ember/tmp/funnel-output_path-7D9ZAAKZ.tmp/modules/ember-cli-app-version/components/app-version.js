@@ -1,0 +1,1 @@
+/home/robert/Documents/Rails+Ember/RobHub/ember/tmp/funnel-input_base_path-ti8bd08h.tmp/0/components/app-version.js

@@ -1,0 +1,247 @@
+export default Ember.HTMLBars.template((function() {
+  var child0 = (function() {
+    var child0 = (function() {
+      return {
+        meta: {
+          "topLevel": null,
+          "revision": "Ember@2.1.0",
+          "loc": {
+            "source": null,
+            "start": {
+              "line": 6,
+              "column": 1
+            },
+            "end": {
+              "line": 19,
+              "column": 1
+            }
+          },
+          "moduleName": "rob-hub/templates/articles.hbs"
+        },
+        isEmpty: false,
+        arity: 1,
+        cachedFragment: null,
+        hasRendered: false,
+        buildFragment: function buildFragment(dom) {
+          var el0 = dom.createDocumentFragment();
+          var el1 = dom.createTextNode("	");
+          dom.appendChild(el0, el1);
+          var el1 = dom.createElement("div");
+          dom.setAttribute(el1,"class","panel panel-default");
+          var el2 = dom.createTextNode("\n		");
+          dom.appendChild(el1, el2);
+          var el2 = dom.createElement("div");
+          dom.setAttribute(el2,"class","panel-heading");
+          dom.setAttribute(el2,"style","cursor: pointer");
+          var el3 = dom.createTextNode("\n			");
+          dom.appendChild(el2, el3);
+          var el3 = dom.createComment("");
+          dom.appendChild(el2, el3);
+          var el3 = dom.createTextNode("\n			");
+          dom.appendChild(el2, el3);
+          var el3 = dom.createElement("h3");
+          dom.setAttribute(el3,"class","panel-title");
+          var el4 = dom.createComment("");
+          dom.appendChild(el3, el4);
+          dom.appendChild(el2, el3);
+          var el3 = dom.createTextNode("\n			");
+          dom.appendChild(el2, el3);
+          var el3 = dom.createElement("h4");
+          var el4 = dom.createComment("");
+          dom.appendChild(el3, el4);
+          dom.appendChild(el2, el3);
+          var el3 = dom.createTextNode("\n		");
+          dom.appendChild(el2, el3);
+          dom.appendChild(el1, el2);
+          var el2 = dom.createTextNode("\n		");
+          dom.appendChild(el1, el2);
+          var el2 = dom.createElement("div");
+          dom.setAttribute(el2,"class","panel-body");
+          var el3 = dom.createTextNode("\n			");
+          dom.appendChild(el2, el3);
+          var el3 = dom.createElement("p");
+          var el4 = dom.createTextNode("\n				");
+          dom.appendChild(el3, el4);
+          var el4 = dom.createComment("");
+          dom.appendChild(el3, el4);
+          var el4 = dom.createTextNode("\n			");
+          dom.appendChild(el3, el4);
+          dom.appendChild(el2, el3);
+          var el3 = dom.createTextNode("\n		");
+          dom.appendChild(el2, el3);
+          dom.appendChild(el1, el2);
+          var el2 = dom.createTextNode("\n	");
+          dom.appendChild(el1, el2);
+          dom.appendChild(el0, el1);
+          var el1 = dom.createTextNode("\n");
+          dom.appendChild(el0, el1);
+          return el0;
+        },
+        buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+          var element0 = dom.childAt(fragment, [1]);
+          var element1 = dom.childAt(element0, [1]);
+          var morphs = new Array(5);
+          morphs[0] = dom.createElementMorph(element1);
+          morphs[1] = dom.createMorphAt(element1,1,1);
+          morphs[2] = dom.createMorphAt(dom.childAt(element1, [3]),0,0);
+          morphs[3] = dom.createMorphAt(dom.childAt(element1, [5]),0,0);
+          morphs[4] = dom.createMorphAt(dom.childAt(element0, [3, 1]),1,1);
+          return morphs;
+        },
+        statements: [
+          ["element","action",["summon"],[],["loc",[null,[8,53],[8,72]]]],
+          ["inline","partial",["modal",["get","article.title",["loc",[null,[9,21],[9,34]]]],["get","article.author",["loc",[null,[9,35],[9,49]]]],["get","article.contents",["loc",[null,[9,50],[9,66]]]],["get","article.id",["loc",[null,[9,67],[9,77]]]]],[],["loc",[null,[9,3],[9,79]]]],
+          ["content","article.title",["loc",[null,[10,27],[10,44]]]],
+          ["content","article.author",["loc",[null,[11,7],[11,25]]]],
+          ["content","article.contents",["loc",[null,[15,4],[15,24]]]]
+        ],
+        locals: ["article"],
+        templates: []
+      };
+    }());
+    return {
+      meta: {
+        "topLevel": null,
+        "revision": "Ember@2.1.0",
+        "loc": {
+          "source": null,
+          "start": {
+            "line": 2,
+            "column": 1
+          },
+          "end": {
+            "line": 20,
+            "column": 1
+          }
+        },
+        "moduleName": "rob-hub/templates/articles.hbs"
+      },
+      isEmpty: false,
+      arity: 0,
+      cachedFragment: null,
+      hasRendered: false,
+      buildFragment: function buildFragment(dom) {
+        var el0 = dom.createDocumentFragment();
+        var el1 = dom.createTextNode("	");
+        dom.appendChild(el0, el1);
+        var el1 = dom.createElement("div");
+        dom.setAttribute(el1,"class","container");
+        var el2 = dom.createTextNode("\n		");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("button");
+        dom.setAttribute(el2,"class","btn btn-primary");
+        var el3 = dom.createTextNode("Create New Article");
+        dom.appendChild(el2, el3);
+        dom.appendChild(el1, el2);
+        var el2 = dom.createTextNode("\n	");
+        dom.appendChild(el1, el2);
+        dom.appendChild(el0, el1);
+        var el1 = dom.createTextNode("\n");
+        dom.appendChild(el0, el1);
+        var el1 = dom.createComment("");
+        dom.appendChild(el0, el1);
+        return el0;
+      },
+      buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+        var element2 = dom.childAt(fragment, [1, 1]);
+        var morphs = new Array(2);
+        morphs[0] = dom.createElementMorph(element2);
+        morphs[1] = dom.createMorphAt(fragment,3,3,contextualElement);
+        dom.insertBoundary(fragment, null);
+        return morphs;
+      },
+      statements: [
+        ["element","action",["new"],[],["loc",[null,[4,34],[4,50]]]],
+        ["block","each",[["get","articles",["loc",[null,[6,9],[6,17]]]]],[],0,null,["loc",[null,[6,1],[19,10]]]]
+      ],
+      locals: [],
+      templates: [child0]
+    };
+  }());
+  var child1 = (function() {
+    return {
+      meta: {
+        "topLevel": null,
+        "revision": "Ember@2.1.0",
+        "loc": {
+          "source": null,
+          "start": {
+            "line": 20,
+            "column": 1
+          },
+          "end": {
+            "line": 22,
+            "column": 1
+          }
+        },
+        "moduleName": "rob-hub/templates/articles.hbs"
+      },
+      isEmpty: false,
+      arity: 0,
+      cachedFragment: null,
+      hasRendered: false,
+      buildFragment: function buildFragment(dom) {
+        var el0 = dom.createDocumentFragment();
+        var el1 = dom.createTextNode("	");
+        dom.appendChild(el0, el1);
+        var el1 = dom.createComment("");
+        dom.appendChild(el0, el1);
+        var el1 = dom.createTextNode("\n");
+        dom.appendChild(el0, el1);
+        return el0;
+      },
+      buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+        var morphs = new Array(1);
+        morphs[0] = dom.createMorphAt(fragment,1,1,contextualElement);
+        return morphs;
+      },
+      statements: [
+        ["content","outlet",["loc",[null,[21,1],[21,11]]]]
+      ],
+      locals: [],
+      templates: []
+    };
+  }());
+  return {
+    meta: {
+      "topLevel": null,
+      "revision": "Ember@2.1.0",
+      "loc": {
+        "source": null,
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 6
+        }
+      },
+      "moduleName": "rob-hub/templates/articles.hbs"
+    },
+    isEmpty: false,
+    arity: 0,
+    cachedFragment: null,
+    hasRendered: false,
+    buildFragment: function buildFragment(dom) {
+      var el0 = dom.createDocumentFragment();
+      var el1 = dom.createElement("div");
+      var el2 = dom.createTextNode("\n");
+      dom.appendChild(el1, el2);
+      var el2 = dom.createComment("");
+      dom.appendChild(el1, el2);
+      dom.appendChild(el0, el1);
+      return el0;
+    },
+    buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+      var morphs = new Array(1);
+      morphs[0] = dom.createMorphAt(dom.childAt(fragment, [0]),1,1);
+      return morphs;
+    },
+    statements: [
+      ["block","if",[["get","is_expanded",["loc",[null,[2,7],[2,18]]]]],[],0,1,["loc",[null,[2,1],[22,8]]]]
+    ],
+    locals: [],
+    templates: [child0, child1]
+  };
+}()));

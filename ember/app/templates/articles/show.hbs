@@ -1,0 +1,12 @@
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h3 class="panel-title">{{article.title}}</h3>
+		<h4>{{article.author}}</h4>
+	</div>
+	<div class="panel-body">
+		<p>
+			{{article.contents}}
+		</p>
+	</div>
+</div>
+<button class="btn btn-large btn-primary" {{action 'to_articles'}}>Back</button>

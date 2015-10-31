@@ -1,0 +1,156 @@
+export default Ember.HTMLBars.template((function() {
+  return {
+    meta: {
+      "topLevel": null,
+      "revision": "Ember@2.1.0",
+      "loc": {
+        "source": null,
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 20,
+          "column": 6
+        }
+      },
+      "moduleName": "rob-hub/templates/modal.hbs"
+    },
+    isEmpty: false,
+    arity: 0,
+    cachedFragment: null,
+    hasRendered: false,
+    buildFragment: function buildFragment(dom) {
+      var el0 = dom.createDocumentFragment();
+      var el1 = dom.createTextNode("\n");
+      dom.appendChild(el0, el1);
+      var el1 = dom.createElement("div");
+      dom.setAttribute(el1,"class","modal fade");
+      dom.setAttribute(el1,"id","modal-article");
+      dom.setAttribute(el1,"tabindex","-1");
+      dom.setAttribute(el1,"role","dialog");
+      dom.setAttribute(el1,"aria-labelledby","myModalLabel");
+      var el2 = dom.createTextNode("\n");
+      dom.appendChild(el1, el2);
+      var el2 = dom.createElement("div");
+      dom.setAttribute(el2,"class","modal-dialog");
+      dom.setAttribute(el2,"role","document");
+      var el3 = dom.createTextNode("\n	");
+      dom.appendChild(el2, el3);
+      var el3 = dom.createElement("div");
+      dom.setAttribute(el3,"class","modal-content");
+      var el4 = dom.createTextNode("\n		");
+      dom.appendChild(el3, el4);
+      var el4 = dom.createElement("div");
+      dom.setAttribute(el4,"class","modal-header");
+      var el5 = dom.createTextNode("\n			");
+      dom.appendChild(el4, el5);
+      var el5 = dom.createElement("button");
+      dom.setAttribute(el5,"type","button");
+      dom.setAttribute(el5,"class","close");
+      dom.setAttribute(el5,"data-dismiss","modal");
+      dom.setAttribute(el5,"aria-label","Close");
+      var el6 = dom.createElement("span");
+      dom.setAttribute(el6,"aria-hidden","true");
+      var el7 = dom.createTextNode("×");
+      dom.appendChild(el6, el7);
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      var el5 = dom.createTextNode("			\n			");
+      dom.appendChild(el4, el5);
+      var el5 = dom.createElement("h4");
+      dom.setAttribute(el5,"class","modal-title");
+      dom.setAttribute(el5,"id","myModalLabel");
+      var el6 = dom.createComment("");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      var el5 = dom.createTextNode("\n			");
+      dom.appendChild(el4, el5);
+      var el5 = dom.createElement("h4");
+      dom.setAttribute(el5,"class","modal-title");
+      dom.setAttribute(el5,"id","myModalLabel");
+      var el6 = dom.createComment("");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      var el5 = dom.createTextNode("\n		");
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      var el4 = dom.createTextNode("\n		");
+      dom.appendChild(el3, el4);
+      var el4 = dom.createElement("div");
+      dom.setAttribute(el4,"class","modal-body");
+      var el5 = dom.createTextNode("\n			");
+      dom.appendChild(el4, el5);
+      var el5 = dom.createComment("");
+      dom.appendChild(el4, el5);
+      var el5 = dom.createTextNode("\n		");
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      var el4 = dom.createTextNode("\n		");
+      dom.appendChild(el3, el4);
+      var el4 = dom.createElement("div");
+      dom.setAttribute(el4,"class","modal-footer");
+      var el5 = dom.createTextNode("\n			");
+      dom.appendChild(el4, el5);
+      var el5 = dom.createElement("button");
+      dom.setAttribute(el5,"type","button");
+      dom.setAttribute(el5,"class","btn btn-default");
+      dom.setAttribute(el5,"data-dismiss","modal");
+      var el6 = dom.createTextNode("Close");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      var el5 = dom.createTextNode("	\n			");
+      dom.appendChild(el4, el5);
+      var el5 = dom.createElement("button");
+      dom.setAttribute(el5,"type","button");
+      dom.setAttribute(el5,"class","btn btn-warning");
+      var el6 = dom.createTextNode("Edit");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      var el5 = dom.createTextNode("\n			");
+      dom.appendChild(el4, el5);
+      var el5 = dom.createElement("button");
+      dom.setAttribute(el5,"type","button");
+      dom.setAttribute(el5,"class","btn btn-primary");
+      var el6 = dom.createTextNode("Read");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      var el5 = dom.createTextNode("\n		");
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      var el4 = dom.createTextNode("\n	");
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      var el3 = dom.createTextNode("\n");
+      dom.appendChild(el2, el3);
+      dom.appendChild(el1, el2);
+      var el2 = dom.createTextNode("\n");
+      dom.appendChild(el1, el2);
+      dom.appendChild(el0, el1);
+      return el0;
+    },
+    buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+      var element0 = dom.childAt(fragment, [1, 1, 1]);
+      var element1 = dom.childAt(element0, [1]);
+      var element2 = dom.childAt(element0, [5]);
+      var element3 = dom.childAt(element2, [3]);
+      var element4 = dom.childAt(element2, [5]);
+      var morphs = new Array(5);
+      morphs[0] = dom.createMorphAt(dom.childAt(element1, [3]),0,0);
+      morphs[1] = dom.createMorphAt(dom.childAt(element1, [5]),0,0);
+      morphs[2] = dom.createMorphAt(dom.childAt(element0, [3]),1,1);
+      morphs[3] = dom.createElementMorph(element3);
+      morphs[4] = dom.createElementMorph(element4);
+      return morphs;
+    },
+    statements: [
+      ["content","title",["loc",[null,[7,45],[7,54]]]],
+      ["content","author",["loc",[null,[8,45],[8,55]]]],
+      ["content","contents",["loc",[null,[11,3],[11,15]]]],
+      ["element","action",["edit",["get","id",["loc",[null,[15,65],[15,67]]]]],[],["loc",[null,[15,49],[15,69]]]],
+      ["element","action",["show",["get","id",["loc",[null,[16,65],[16,67]]]]],[],["loc",[null,[16,49],[16,69]]]]
+    ],
+    locals: [],
+    templates: []
+  };
+}()));

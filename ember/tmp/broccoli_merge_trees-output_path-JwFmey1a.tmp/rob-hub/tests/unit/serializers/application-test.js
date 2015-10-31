@@ -1,0 +1,1 @@
+/home/robert/Documents/Rails+Ember/RobHub/ember/tmp/babel-cache_path-P5IPqEeL.tmp/rob-hub/tests/unit/serializers/application-test.js
